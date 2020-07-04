@@ -5,6 +5,7 @@ import Home from './screens/home.screen';
 import SignIn from './screens/sign-in.screen';
 import Dashboard from './screens/dashboard.screen';
 import WieChapters from './screens/wie-chapters.screen';
+import Commitee from './screens/executive-commitee.screen';
 import { Header } from './components';
 
 function App() {
@@ -18,6 +19,7 @@ function App() {
             <Route exact path="/signIn" render={(props) => <SignIn {...props} />} />
             <Route exact path="/wieChapters" render={(props) => <WieChapters {...props} />} />
             <Route exact path="/dashboard" render={(props) => <Dashboard {...props} />} />
+            <Route exact path="/commitee" render={(props) => <Commitee {...props} />} />
           </main>
           {/* <Route exact path="/checkoutpricessingle" component={CheckoutPricesSingle} />
             <Route exact path="/terms" component={TermsAndConditions} />
