@@ -98,7 +98,7 @@ class Home extends Component {
                                     </div>
                                 </div>
                             </div>
-                            <div className="row" id="contact">
+                            {/* <div className="row" id="contact">
                                 <div className="container">
                                     <div className="col-lg-12 col-md-12 col-sm-12 col-xs-12">
                                         <div className="row">
@@ -137,7 +137,7 @@ class Home extends Component {
                                         </div>
                                     </div>
                                 </div>
-                            </div>
+                            </div> */}
                         </div>
                     </div>
                 </div>

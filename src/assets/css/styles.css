@@ -1831,3 +1831,26 @@ figure:hover ~ .tourTitle {
 }
 
    /* /wie chapters page */
+
+.page_header{
+  margin-top: 20px;
+  font-size: 30px;
+}
+
+#cover_image{
+  width: 500px;
+}
+
+.aboutList ul li{
+  font-size: 13px;
+}
+
+.aboutList p{
+  font-size: 13px;
+  color: #000;
+}
+
+.aboutList p a{
+  font-size: 13px;
+  color: #000;
+}

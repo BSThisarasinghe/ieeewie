@@ -13,6 +13,7 @@ class Header extends Component {
                             <Nav.Link href="/">HOME</Nav.Link>
                             <Nav.Link href="/wieChapters">WIE CHAPTERS</Nav.Link>
                             <Nav.Link href="/commitee">COMMITTEE</Nav.Link>
+                            <Nav.Link href="/aboutus">ABOUT US</Nav.Link>
                         </Nav>
                     </Navbar>
                 </header>
