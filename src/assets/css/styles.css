@@ -1,0 +1,109 @@
+.main__wrapper{
+    background-color: #f9fafb;
+}
+
+.idea__card {
+    border-radius: 18px;
+    background-color: var(--white);
+    border: solid 1px var(--common-border);
+    -webkit-box-shadow: 0px 2px 10px 0px rgba(224, 228, 231, 0.65);
+    -moz-box-shadow: 0px 2px 10px 0px rgba(224, 228, 231, 0.65);
+    box-shadow: 0px 2px 10px 0px rgba(224, 228, 231, 0.65);
+}
+
+.btn__wrapper{
+  text-align: center;
+}
+
+.main .main__wrapper .btn__wrapper {
+  margin-top: 40px;
+}
+
+.main .main__wrapper .btn__wrapper > .row {
+  float: right;
+}
+
+.main .main__wrapper .btn__wrapper button {
+  margin-left: auto;
+  margin-right: 0;
+}
+
+.main .main__wrapper .btn__wrapper button:nth-child(2) {
+  margin-left: 40px;
+}
+
+/* signin page */
+
+.main__wrapper .idea__card.signup__form {
+    margin-top: 2rem;
+    background-color: #fff;
+  }
+  
+  .main__wrapper .idea__card.signup__form .login__form__wrapper h3.wizard__title {
+    line-height: 1.3;
+    margin-bottom: 40px;
+  }
+  
+  .main__wrapper .idea__card.signup__form .login__form__wrapper {
+    padding: 20px 25px;
+    width: 100%;
+  }
+  
+  .main__wrapper .idea__card.signup__form .login__form__wrapper button {
+    width: 100%;
+    margin-top: 20px;
+  }
+  
+  .main__wrapper .idea__card.signup__form .background__bg__wrapper {
+    background-image: url(../images/login_bg.jpg);
+    background-position-x: center;
+    background-position-y: center;
+    width: 100%;
+    border-top-left-radius: 18px;
+    border-top-right-radius: 18px;
+  }
+  
+  .main__wrapper .idea__card.signup__form .background__bg__wrapper img {
+    margin: 25px auto 25px 25px;
+    max-width: 120px;
+  }
+  
+  @media screen and (min-width: 768px) {
+    .main__wrapper .idea__card.signup__form {
+      max-width: 85%;
+      margin: 4rem auto;
+    }
+    .main__wrapper .idea__card.signup__form .background__bg__wrapper {
+      width: 40%;
+    }
+    .main__wrapper .idea__card.signup__form .login__form__wrapper {
+      padding: 40px 80px;
+      width: 60%;
+    }
+    .main__wrapper .idea__card.signup__form .checkoutPrices__table__wrapper {
+      padding: 70px 100px;
+      width: 100%;
+      align-content: center;
+    }
+    .main__wrapper .idea__card.signup__form .background__bg__wrapper img {
+      margin: 45px 0 0 40px;
+    }
+    .main__wrapper .idea__card.signup__form .background__bg__wrapper {
+      background-image: url(../images/login_bg.jpg);
+      background-position-x: center;
+      background-position-y: center;
+      border-top-left-radius: 18px;
+      border-bottom-left-radius: 18px;
+      border-top-right-radius: unset;
+    }
+  }
+
+  .loginInputContainer{
+    text-align: left;
+  }
+
+  .loginFormLable {
+    font-size: 10px;
+  }
+  
+  /* /signin page */
