@@ -11,7 +11,7 @@ class Header extends Component {
                         <Navbar.Brand href="/">IEEE</Navbar.Brand>
                         <Nav className="mr-auto">
                             <Nav.Link href="/">HOME</Nav.Link>
-                            <Nav.Link href="#features">WIE CHAPTERS</Nav.Link>
+                            <Nav.Link href="/wieChapters">WIE CHAPTERS</Nav.Link>
                         </Nav>
                     </Navbar>
                 </header>

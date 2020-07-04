@@ -4,6 +4,7 @@ import './App.css';
 import Home from './screens/home.screen';
 import SignIn from './screens/sign-in.screen';
 import Dashboard from './screens/dashboard.screen';
+import WieChapters from './screens/wie-chapters.screen';
 import { Header } from './components';
 
 function App() {
@@ -15,6 +16,7 @@ function App() {
           <main class="page-content">
             <Route exact path="/" render={(props) => <Home {...props} />} />
             <Route exact path="/signIn" render={(props) => <SignIn {...props} />} />
+            <Route exact path="/wieChapters" render={(props) => <WieChapters {...props} />} />
             <Route exact path="/dashboard" render={(props) => <Dashboard {...props} />} />
           </main>
           {/* <Route exact path="/checkoutpricessingle" component={CheckoutPricesSingle} />
