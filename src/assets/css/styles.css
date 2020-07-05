@@ -71,7 +71,7 @@ body {
 
 #header{
   position: fixed;
-  width: 110%;
+  width: 100%;
   z-index: 10;
 }
 
@@ -1857,7 +1857,8 @@ figure:hover ~ .tourTitle {
 
 .conference_title{
   font-weight: 700;
-  margin-top: 50px;
+  margin-top: 100px;
+  margin-bottom: 50px;
 }
 
 #conference_logo_container{

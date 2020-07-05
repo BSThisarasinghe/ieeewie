@@ -8,6 +8,7 @@ import WieChapters from './screens/wie-chapters.screen';
 import Commitee from './screens/executive-commitee.screen';
 import AboutUs from './screens/about-us.screen';
 import Conference from './screens/conference.screen';
+import Events from './screens/events.screen';
 import { Header } from './components';
 
 function App() {
@@ -24,6 +25,7 @@ function App() {
             <Route exact path="/commitee" render={(props) => <Commitee {...props} />} />
             <Route exact path="/aboutus" render={(props) => <AboutUs {...props} />} />
             <Route exact path="/conference" render={(props) => <Conference {...props} />} />
+            <Route exact path="/events" render={(props) => <Events {...props} />} />
           </main>
           {/* <Route exact path="/checkoutpricessingle" component={CheckoutPricesSingle} />
             <Route exact path="/terms" component={TermsAndConditions} />
