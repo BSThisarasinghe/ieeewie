@@ -138,42 +138,39 @@ class Home extends Component {
                                     </div>
                                 </div>
                             </div>
-                            <div className="row" id="contact">
+                            <div className="row" id="vision_container">
                                 <div className="container">
                                     <div className="col-lg-12 col-md-12 col-sm-12 col-xs-12">
                                         <div className="row">
                                             <div className="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                                                <h1 className="text-center titleDetails">CONTACT US</h1>
+                                                <h1 className="text-center titleDetails">JOIN US</h1>
                                             </div>
                                             <div className="col-lg-12 col-md-12 col-sm-12 col-xs-12 icon_image_container">
-                                                <img src={require('../assets/images/contact.png')} className="img-fluid icon_image" />
+                                                {/* <img src={require('../assets/images/contact.png')} className="img-fluid icon_image" /> */}
                                             </div>
                                             <br /><br /><br /><br />
                                         </div>
                                         <div className="row">
-                                            <div className="col-lg-6 col-md-6 col-sm-12 col-xs-12" style={{ marginBottom: '30px' }}>
-                                                <section>
-                                                    <h4 className="subtitle">
-                                                        ALL PARTICIPANTS WILL BE ENTITLED TO THE FOLLOWING VERY SPECIAL DISCOUNTS.
-                                                    </h4>
-                                                    <ul>
-                                                        <li>25% discount off all treatments at our well-equipped Ayurveda Center</li>
-                                                        <li>25% discount off all beverages</li>
-                                                        <li>15% discount off all A la Carte menu prices</li>
-                                                    </ul>
-                                                </section>
+                                            <div className="col-lg-2 col-md-2 col-sm-12 col-xs-12"></div>
+                                            <div className="col-lg-4 col-md-4 col-sm-12 col-xs-12 text-center hover1 column">
+                                                <img src={require('../assets/images/vision.png')} id="vision" className="img-responsive" />
+                                                <h4>Our Vision</h4>
+                                                <p className="paragraph">
+                                                    <font color="gray">
+                                                        Our vision is to recognize the outstanding achievements of women in electrical and electronics engineering through IEEE Awards nominations and advocate women in leadership roles in IEEE governance, and career advancement for women in the profession.
+                                                    </font>
+                                                </p>
                                             </div>
-                                            <div className="col-lg-6 col-md-6 col-sm-12 col-xs-12" style={{ marginBottom: '30px' }}>
-                                                <section>
-                                                    <p><i className="fa fa-phone" aria-hidden="true" />&nbsp;&nbsp;Chapman - 0777 825 473</p><br />
-                                                    <p><i className="fa fa-phone" aria-hidden="true" />&nbsp;&nbsp;Rewatha - 0776 475 694</p><br />
-                                                    <p><i className="fa fa-phone" aria-hidden="true" />&nbsp;&nbsp;Priyanji or John - 011-24 22 441</p><br />
-                                                    <p><i className="fa fa-phone" aria-hidden="true" />&nbsp;&nbsp;Hotel - 057 - 22 22 407 / 057 - 22 22 377</p><br />
-                                                    <p><i className="fa fa-envelope" aria-hidden="true" />&nbsp;&nbsp;orient.col@eureka.lk / orient.bwela@eureka.lk</p><br />
-                                                    <p><i className="fa fa-globe" aria-hidden="true" />&nbsp;&nbsp;<a href="https://www.orienthotelsl.com/" id="website">Website</a></p><br />
-                                                    <p><i className="fa fa-address-card" aria-hidden="true" />&nbsp;&nbsp;No. 12, Dharmapala Mawatha, Bandarawela</p><br />
-                                                </section>
+                                            <div className="col-lg-4 col-md-4 col-sm-12 col-xs-12 text-center hover2 column">
+                                                <img src={require('../assets/images/mission.png')} id="mission" className="img-responsive" />
+                                                <h4>Our Vision</h4>
+                                                <p className="paragraph">
+                                                    <font color="gray">
+                                                        Our goal is to facilitate the recruitment and retention of women in technical disciplines globally. We envision a vibrant community of IEEE women and men collectively using their diverse talents to innovate for the benefit of humanity.
+                                                    </font>
+                                                </p>
                                             </div>
+                                            <div className="col-lg-2 col-md-2 col-sm-12 col-xs-12"></div>
                                         </div>
                                     </div>
                                 </div>

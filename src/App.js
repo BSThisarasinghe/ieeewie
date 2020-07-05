@@ -9,7 +9,8 @@ import Commitee from './screens/executive-commitee.screen';
 import AboutUs from './screens/about-us.screen';
 import Conference from './screens/conference.screen';
 import Events from './screens/events.screen';
-import { Header } from './components';
+import ConfCommittee from './screens/conference-committee.screen';
+import { Header, Footer } from './components';
 
 function App() {
   return (
@@ -17,7 +18,7 @@ function App() {
       <Router>
         <Header />
         <Switch>
-          <main class="page-content">
+          <main class="page-content" style={{ paddingBottom: 100 }}>
             <Route exact path="/" render={(props) => <Home {...props} />} />
             <Route exact path="/signIn" render={(props) => <SignIn {...props} />} />
             <Route exact path="/wieChapters" render={(props) => <WieChapters {...props} />} />
@@ -26,14 +27,10 @@ function App() {
             <Route exact path="/aboutus" render={(props) => <AboutUs {...props} />} />
             <Route exact path="/conference" render={(props) => <Conference {...props} />} />
             <Route exact path="/events" render={(props) => <Events {...props} />} />
+            <Route exact path="/conferencecommittee" render={(props) => <ConfCommittee {...props} />} />
           </main>
-          {/* <Route exact path="/checkoutpricessingle" component={CheckoutPricesSingle} />
-            <Route exact path="/terms" component={TermsAndConditions} />
-            <Route exact path="/privacy" component={PrivacyPolicy} />
-            <Route exact path="/checkoutpricesenterprise" component={CheckoutPricesEnterprise} />
-            <Route exact path="/contactus" component={ContactUs} />
-            <Route exact path="/provision" render={(props) => <Provision {...props} auth={this.state.auth} keycloak={this.state.keycloak} onSetAuth={this.setAuth} />} /> */}
         </Switch>
+        <Footer />
       </Router>
     </React.Fragment>
   );

@@ -13,12 +13,12 @@ class Events extends Component {
         return (
             <React.Fragment>
                 <div className="container-fluid" id="whole" style={{ width: '110%' }}>
-                    {/* <div className="row">
+                    <div className="row">
                         <div className="col-lg-12 col-md-12 col-sm-12 col-xs-12" id="chapters_background_container">
                             <div id="chapters_background">
                             </div>
                         </div>
-                    </div> */}
+                    </div>
                     <div className="container">
                         <div className="row">
                             <div className="col-lg-12 col-md-12 col-sm-12 col-xs-12">

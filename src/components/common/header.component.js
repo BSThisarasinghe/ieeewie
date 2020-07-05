@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import { Navbar, Nav } from 'react-bootstrap';
+import { Navbar, Nav, NavDropdown } from 'react-bootstrap';
 
 class Header extends Component {
 
@@ -16,7 +16,10 @@ class Header extends Component {
                             <Nav.Link href="/wieChapters">WIE CHAPTERS</Nav.Link>
                             <Nav.Link href="/commitee">COMMITTEE</Nav.Link>
                             <Nav.Link href="/aboutus">ABOUT US</Nav.Link>
-                            <Nav.Link href="/conference">CONFERENCE</Nav.Link>
+                            <NavDropdown title="CONFERENCE" id="collasible-nav-dropdown">
+                                <NavDropdown.Item href="/conference">CONFERENCE</NavDropdown.Item>
+                                <NavDropdown.Item href="/conferencecommittee">CONFERENCE COMMITTEE</NavDropdown.Item>
+                            </NavDropdown>
                             <Nav.Link href="/events">EVENTS</Nav.Link>
                         </Nav>
                         <Navbar.Brand href="/">
