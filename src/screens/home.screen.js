@@ -10,6 +10,10 @@ class Home extends Component {
         }
     }
 
+    onClickPost() {
+        window.location.href = "/conference";
+    }
+
     render() {
         return (
             <React.Fragment>
@@ -19,28 +23,9 @@ class Home extends Component {
                             <div id="background">
                             </div>
                             <div id="linkContainer">
-                                {/* <div id="carouselExampleInterval" className="carousel slide slideShow" data-ride="carousel">
-                                    <div className="carousel-inner">
-                                        <div className="carousel-item active" data-interval={10000}> */}
                                 <div className="container" style={{ textAlign: 'left' }}>
                                     <p className="quote">IEEEWIE.LK</p>
                                 </div>
-                                {/* </div> */}
-                                {/* <div className="carousel-item" data-interval={2000}>
-                                            <div className="container" style={{ backgroundColor: 'rgba(255, 255, 255, 0.3)', height: '100px' }}>
-                                                <p className="quote">EXCURSIONS/PACKAGE TOURS BANDARAWELA, ELLA &amp; UDAWALAWE</p>
-                                            </div>
-                                        </div> */}
-                                {/* </div> */}
-                                {/* <a className="carousel-control-prev" href="#carouselExampleInterval" role="button" data-slide="prev">
-                                        <span className="carousel-control-prev-icon" aria-hidden="true" />
-                                        <span className="sr-only">Previous</span>
-                                    </a>
-                                    <a className="carousel-control-next" href="#carouselExampleInterval" role="button" data-slide="next">
-                                        <span className="carousel-control-next-icon" aria-hidden="true" />
-                                        <span className="sr-only">Next</span>
-                                    </a> */}
-                                {/* </div> */}
                             </div>
                         </div>
                     </div>
@@ -59,13 +44,13 @@ class Home extends Component {
                                 <div className="row">
                                     <div className="col-lg-6 col-md-6 col-sm-6 col-xs-6" id="details">
                                         <div className="row">
-                                            <p className="posted_date">MAY 6, 2020</p>
+                                            <p className="posted_date">NOVEMBER 15th - 21st, 2020</p>
                                         </div>
                                         <div className="row">
-                                            <p className="post_title">Hello world!</p>
+                                            <p className="post_title"></p>
                                         </div>
                                         <div className="row posted_discription_container">
-                                            <p className="posted_discription">Welcome to WordPress. This is your first post. Edit or delete it, then start writing!</p>
+                                            <p className="posted_discription">Call for abstracts and posters</p>
                                         </div>
                                     </div>
                                     <div className="col-lg-6 col-md-6 col-sm-6 col-xs-6">
@@ -83,22 +68,77 @@ class Home extends Component {
                                             <p className="recent_post_title">RECENT POSTS</p>
                                             <div className="col-lg-12 col-md-12 col-sm-12 col-xs-12">
                                                 <div className="recent_post">
-                                                    <a href="">Hello world!</a>
+                                                    <a type="button" onClick={() => this.onClickPost()}>WIEsymp 2020</a>
                                                 </div>
                                             </div>
                                         </div>
-                                        <div className="row recent_comment_title_container">
+                                        {/* <div className="row recent_comment_title_container">
                                             <p className="recent_comment_title">RECENT COMMENTS</p>
                                             <div className="col-lg-12 col-md-12 col-sm-12 col-xs-12">
                                                 <div className="recent_comment">
                                                     <a href="">A WordPress Commenter on Hello world!</a>
                                                 </div>
                                             </div>
+                                        </div> */}
+                                    </div>
+                                </div>
+                            </div>
+                            <div className="container">
+                                <div className="row" id="works">
+                                    <div className="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                                        <div className="row">
+                                            <div className="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                                                <h1 className="text-center titleDetails">OUR COMMITTEE</h1>
+                                            </div>
+                                            <div className="col-lg-12 col-md-12 col-sm-12 col-xs-12 icon_image_container">
+                                                <img src={require('../assets/images/committee.png')} className="img-fluid icon_image" />
+                                            </div>
+                                            <br /><br /><br /><br />
+                                        </div>
+                                        <div className="row" id="projectRow">
+                                            <div className="col-lg-3 col-md-3 col-sm-6 col-xs-12 parent">
+                                                <div className="hover06 column">
+                                                    <div>
+                                                        <figure><img src={require('../assets/images/group1.jpg')} /></figure>
+                                                        <p className="text-center tourTitle">EVENTS</p>
+                                                    </div>
+                                                    <span className="textContainer">
+                                                        <p className="text-center">IEEE Women in Engineering (WIE) is the<br /> largest international professional organization dedicated<br /> to promoting women engineers and scientists and inspiring<br /> girls around the world to follow their academic interests to a career in engineering.</p>
+                                                        {/* <p className="text-justify"><b>Cost per person:</b> Rs. 15,350.00 nett. Per person on twin / triple sharing basis (minimum 12 pax).<br /> <b>Option:</b> Rs. 10,500.00 nett. Per person on twin / triple sharing basis without transport (from &amp; to Colombo). (Minimum 12 pax).</p> */}
+                                                    </span>
+                                                </div>
+                                            </div>
+                                            <div className="col-lg-1 col-md-1" />
+                                            <div className="col-lg-3 col-md-3 col-sm-6 col-xs-12 parent">
+                                                <div className="hover06 column">
+                                                    <div>
+                                                        <figure><img src={require('../assets/images/group2.jpg')} /></figure>
+                                                        <p className="text-center tourTitle">EVENTS</p>
+                                                    </div>
+                                                    <span className="textContainer">
+                                                        <p className="text-center">WIE Sri Lanka Section has been established<br /> to foster technological innovation and<br /> excellence in Women in Engineering<br /> all around the country</p>
+                                                        {/* <p className="text-justify"><b>Cost per person:</b> Rs. 23,100.00 nett. Per person twin / triple sharing basis (minimum 12 pax).<br /> <b>Option:</b> Rs. 18,750.00 nett. Per person on twin / triple sharing basis without transport (from &amp; to Colombo). (Minimum 12 pax).</p> */}
+                                                    </span>
+                                                </div>
+                                            </div>
+                                            <div className="col-lg-1 col-md-1" />
+                                            <div className="col-lg-3 col-md-3 col-sm-6 col-xs-12 parent">
+                                                <div className="hover06 column">
+                                                    <div>
+                                                        <figure><img src={require('../assets/images/group3.jpg')} /></figure>
+                                                        <p className="text-center tourTitle">EVENTS</p>
+                                                    </div>
+                                                    <span className="textContainer">
+                                                        <p className="text-center">IEEE WIE envisions a vibrant<br /> community of IEEE women and men<br /> collectively using their diverse<br /> talents to innovate for<br /> the benefit of humanity.</p>
+                                                        {/* <p className="text-justify"><b>Cost per person:</b> Rs. 22,900.00 nett. Per person on twin / triple sharing basis (minimum 12 pax).<br /> <b>Option:</b> Rs. 16,450.00 nett. Per person on twin / triple sharing basis without transport (from &amp; to Colombo). (Minimum 12 pax).</p> */}
+                                                    </span>
+                                                </div>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
                             </div>
-                            {/* <div className="row" id="contact">
+                            <div className="row" id="contact">
                                 <div className="container">
                                     <div className="col-lg-12 col-md-12 col-sm-12 col-xs-12">
                                         <div className="row">
@@ -115,7 +155,7 @@ class Home extends Component {
                                                 <section>
                                                     <h4 className="subtitle">
                                                         ALL PARTICIPANTS WILL BE ENTITLED TO THE FOLLOWING VERY SPECIAL DISCOUNTS.
-                        </h4>
+                                                    </h4>
                                                     <ul>
                                                         <li>25% discount off all treatments at our well-equipped Ayurveda Center</li>
                                                         <li>25% discount off all beverages</li>
@@ -137,7 +177,7 @@ class Home extends Component {
                                         </div>
                                     </div>
                                 </div>
-                            </div> */}
+                            </div>
                         </div>
                     </div>
                 </div>

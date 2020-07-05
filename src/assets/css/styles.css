@@ -265,7 +265,7 @@ body {
   float: left;
   width: 300px;
   height: 200px;
-  margin: 0 0 25px 25px;
+  margin: 0 0 50px 25px;
   padding: 0;
   /*background-color: red !important;*/
 }
@@ -1853,4 +1853,30 @@ figure:hover ~ .tourTitle {
 .aboutList p a{
   font-size: 13px;
   color: #000;
+}
+
+.conference_title{
+  font-weight: 700;
+  margin-top: 50px;
+}
+
+#conference_logo_container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#conference_logo_container img{
+  width: 200px;
+  height: 200px;
+}
+
+.conference_subtitle{
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.conference_text{
+  font-weight: 700;
+  font-size: 17px;
 }
